@@ -1,7 +1,7 @@
 const discord = require('discord.js');
 const client = new discord.Client();
 const fs = require("fs");
-const {token} = require('token.json');
+const {token} = require('./token.json');
 const add ='+';
 const subtract = '-';
 const equal = '=';
@@ -13,7 +13,7 @@ client.once('ready', () => {
 });
 
 client.on('message', message =>{
-    if(message.channel.id === '927037576907468850'){
+    if(message.channel.id === '686693048423284786'){
         console.log(message.content);
         //gets message without + or -
 
