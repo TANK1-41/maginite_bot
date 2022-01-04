@@ -1,6 +1,7 @@
 const discord = require('discord.js');
 const client = new discord.Client();
 const fs = require("fs");
+const {token} = require('token.json');
 const add ='+';
 const subtract = '-';
 const equal = '=';
@@ -95,4 +96,4 @@ client.on('message', message =>{
 
 
 
-client.login('OTI3NzA5Njk0ODA0NDkyMzE4.YdOK-w.W_auwaGZvvFizlQjzVz5Nsh85WE');
+client.login(token);
