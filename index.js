@@ -13,7 +13,7 @@ client.once('ready', () => {
 });
 
 client.on('message', message =>{
-    if(message.channel.id === '686693048423284786'){
+    if(message.channel.id === '927037576907468850'){
         console.log(message.content);
         //gets message without + or -
 
